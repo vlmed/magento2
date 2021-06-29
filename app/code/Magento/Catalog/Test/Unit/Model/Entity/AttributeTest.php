@@ -241,7 +241,7 @@ class AttributeTest extends TestCase
                 'attributeOptionFactory' => $this->attributeOptionFactoryMock,
                 'dataObjectProcessor' => $this->dataObjectProcessorMock,
                 'dataObjectHelper' => $this->dataObjectHelperMock,
-                'timezone' => $this->timezoneMock,
+                'timeZone' => $this->timezoneMock,
                 'reservedAttributeList' => $this->reservedAttributeListMock,
                 'resolver' => $this->resolverMock,
                 'dateTimeFormatter' => $this->dateTimeFormatter,

@@ -86,7 +86,7 @@ class ColumnFactoryTest extends TestCase
             ColumnFactory::class,
             [
                 'componentFactory' => $this->uiComponentFactory,
-                'timezone' => $this->timezone,
+                'timeZone' => $this->timezone,
             ]
         );
     }
@@ -203,7 +203,7 @@ class ColumnFactoryTest extends TestCase
                     'visible' => true,
                     'filter' => 'dateRange',
                     'component' => 'Magento_Ui/js/grid/columns/date',
-                    'timezone' => $expectedTimezone,
+                    'timeZone' => $expectedTimezone,
                     'dateFormat' => $expectedDateFormat,
                     'options' => [
                         'showsTime' => $showsTime
